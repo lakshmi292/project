@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-02T18:44:38 IST" name="Default suite" finished-at="2025-09-02T18:44:45 IST" duration-ms="7058">
+    <groups>
+    </groups>
+    <test started-at="2025-09-02T18:44:38 IST" name="Default test" finished-at="2025-09-02T18:44:45 IST" duration-ms="7058">
+      <class name="com.jobportal.newComersJobBoardTest.jobseekerloginTest">
+        <test-method is-config="true" signature="confiBS()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:25 IST" name="confiBS" finished-at="2025-09-02T18:44:38 IST" duration-ms="13040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confiBS -->
+        <test-method is-config="true" signature="confiBC()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:38 IST" name="confiBC" finished-at="2025-09-02T18:44:43 IST" duration-ms="5336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confiBC -->
+        <test-method is-config="true" signature="confiBM()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:43 IST" name="confiBM" finished-at="2025-09-02T18:44:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confiBM -->
+        <test-method signature="login()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:43 IST" name="login" finished-at="2025-09-02T18:44:45 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="confiAM()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:45 IST" name="confiAM" finished-at="2025-09-02T18:44:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confiAM -->
+        <test-method is-config="true" signature="confiAC()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:45 IST" name="confiAC" finished-at="2025-09-02T18:44:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confiAC -->
+        <test-method is-config="true" signature="confiAS()[pri:0, instance:com.jobportal.newComersJobBoardTest.jobseekerloginTest@38d8f54a]" started-at="2025-09-02T18:44:45 IST" name="confiAS" finished-at="2025-09-02T18:44:45 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "com.Jobportal.newComersJobBoard.generic.basetest.BaseClass.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "com.Jobportal.newComersJobBoard.generic.basetest.BaseClass.report" is null
+at com.Jobportal.newComersJobBoard.generic.basetest.BaseClass.confiAS(BaseClass.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confiAS -->
+      </class> <!-- com.jobportal.newComersJobBoardTest.jobseekerloginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
